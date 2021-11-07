@@ -1,0 +1,31 @@
+
+.card{
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);;
+}
+
+.card img{
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.card:hover img{
+    opacity: 0.5;
+    filter: blur(3px);
+}
+
+.btn{
+    border-radius: 10px;
+}

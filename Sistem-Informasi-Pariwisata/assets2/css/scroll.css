@@ -1,0 +1,5 @@
+.scrolling-wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+  
+}
